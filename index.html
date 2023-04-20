@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加減乘除</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="area">
+        <h1>簡易計算機</h1>
+        <div class="couArea">
+            <div class="input-group flex-nowrap inp">
+                <input id="num1" type="number" class="form-control" placeholder="number" aria-label="number">
+            </div>
+            <div class="input-group ms-3 sele">
+                <select id="count" class="form-select">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <div class="input-group flex-nowrap ms-3 inp">
+                <input id="num2" type="number" class="form-control" placeholder="number" aria-label="number">
+            </div>
+        </div>
+        <div class="ans">
+            <p class="fs-5">=</p>
+            <p id="f6" class="fs-5 ms-5"></p>
+        </div>
+        <button id="btn" type="button" class="btn btn-secondary btn-sm">計算</button>
+    </div>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>

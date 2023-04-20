@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.area {
+    width: 35vw;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+
+    .couArea {
+        margin: 20px 0;
+        display: flex;
+        justify-content:space-around;
+        
+        .sele {
+            width: 60px;
+            height: 20%;
+        }
+
+        .inp {
+            width: 30%;
+        }
+    }
+
+    .ans {
+        display: flex;
+    }
+}
